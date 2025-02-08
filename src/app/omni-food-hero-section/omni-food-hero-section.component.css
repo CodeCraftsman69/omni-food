@@ -64,30 +64,25 @@ Medium: 11px
     align-items: center;
     gap: 9.6rem;
 }
-
 .hero-img {
     width: 100%;
 }
-
 .hero-text-box {
     display: flex;
     flex-direction: column;
     gap: 4rem;
 }
-
 .primary-heading {
     font-size: 5.2rem;
     line-height: 1.2;
     letter-spacing: -0.5px;
-    font-weight: 700;
+    font-weight: 600;
     color: #333;
 }
-
 .hero-description {
     font-size: 2.2rem;
     letter-spacing: -0.5px;
 }
-
 .btn,
 .btn:link,
 .btn:visited {
@@ -107,24 +102,20 @@ Medium: 11px
     /* transition: background-color 0.3s; */
     transition: all 0.3s;
 }
-
 .btn--full:link,
 .btn--full:visited {
     background-color: #e67e22;
     color: #fff;
 }
-
 .btn--full:hover,
 .btn--full:active {
     background-color: #cf711f;
 }
-
 .btn--outline:link,
 .btn--outline:visited {
     background-color: #fff;
     color: #555;
 }
-
 .btn--outline:hover,
 .btn--outline:active {
     background-color: #fdf2e9;
@@ -134,7 +125,36 @@ Medium: 11px
     /* Trick to add border inside */
     box-shadow: inset 0 0 0 3px #fff;
 }
-
 .btn-margin-sm {
     margin-right: 2.4rem;
+}
+
+.delivered-meals{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 4.2rem;
+   gap: 1.6rem;
+}
+.delivered-img{
+  display: flex;
+  flex: 1;
+}
+
+.delivered-img img {
+    height: 4.8rem;
+    width: 4.8rem;
+    border-radius: 50%;
+    margin-right: -1.2rem;
+}
+
+.delivered-img img:last-child {
+    margin: 0;
+}
+.delivered-text{
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+.delivered-text span{
+    color: #e67e22;
 }
