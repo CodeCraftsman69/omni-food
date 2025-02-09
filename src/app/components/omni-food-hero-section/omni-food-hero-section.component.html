@@ -1,0 +1,29 @@
+<div class="hero">
+  <div class="hero-text-box">
+    <h1 class="primary-heading">
+      A healthy meal delivered to your door, every single day
+    </h1>
+    <p class="hero-description">
+      The smart 365-days-per-year food subscription that will make you eat
+      healthy again. Tailored to your personal tastes and nutritional needs.
+    </p>
+    <div>
+        <a href="#" class="btn btn--full btn-margin-sm">Start eating well</a>
+        <a href="#" class="btn btn--outline">Learn more &dArr;</a>
+    </div>
+    <div class="delivered-meals">
+      <div class="delivered-img" >
+        <ng-container *ngFor="let customer of customerData ">
+          <img [src]="customer" alt="customer-photo">
+        </ng-container>
+   
+      </div>
+      <p class="delivered-text">We have delivered <span>250,000+ </span> meals last year!</p>
+
+    </div>
+  
+  </div>
+  <div class="hero-img-box">
+    <img src="../../assets/hero.png" class="hero-img" alt="women eating food" />
+  </div>
+</div>
